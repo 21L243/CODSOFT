@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodSoft</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<style>
+    body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    }
+   
+</style>
+<body>
+    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=608,fit=crop,q=95/Aq20eV79zLfpXV6b/logo-png-mnl7npnlXjHPl9KV.png">
+    <ul>
+        <li id="Contact"><a href="#contact">Contact Us</a></li>
+        <li id="About"><a href="#about">About Us</a></li>
+       <li id="Home"><a href="#home">Home</a></li>
+      </ul>
+      <div class="design">
+        <h1>WE ARE HIRING !</h1>
+           <h3>Exciting news! We are hiring and looking for talented individuals to join our team.</h3>
+           <h1 style="background-color: red;width: 650px;text-align: center;">INTERN POSITIONS</h1>
+           <p>Web Development</p>
+           <p>App Development</p>
+           <p>Java Programming</p>
+           <p>Python Programming</p>
+           <p>Data Science</p>
+           <p>UI/UX Design</p>
+           <p>Artifical Intelligence</p>
+           <p>Machine Learning</p>
+      </div>
+      <button id="myButton">Apply Now</button>
+      <script>
+        document.getElementById("About").onclick = function() {
+          window.location.href = "main1.html";
+        };
+        document.getElementById("Home").onclick = function() {
+          window.location.href = "main.html";
+        };
+        document.getElementById("Contact").onclick = function() {
+          window.location.href = "main2.html";
+        };
+        document.getElementById("myButton").onclick = function() {
+          window.location.href = "apply.html";
+        };
+      </script>
+     
+    
+</body>
+</html>

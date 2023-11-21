@@ -1,0 +1,24 @@
+h1{
+    font-size: 70px;
+    color:aliceblue;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(39, 38, 38);
+}
+.maindesign{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.maindesign1{
+    font-size: 25px;
+    color: aliceblue;
+}
